@@ -1,0 +1,10 @@
+//
+// Copyright (C) 2022 Sarthak Roy
+// SPDX-License-Identifer: Apache-2.0
+//
+
+runtime_resource_overlay {
+    name: "NTFrameworks",
+    sdk_version: "current",
+    system_ext_specific: true,
+}
