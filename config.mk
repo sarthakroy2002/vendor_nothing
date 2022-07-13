@@ -9,9 +9,7 @@ PRODUCT_PACKAGES += \
 	NTFrameworks
 
 # Bootanimation
-ifeq ($(TARGET_BOOT_ANIMATION_RES),1080)
-    PRODUCT_COPY_FILES += vendor/nothing/bootanimation/bootanimation1080.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
-endif
+PRODUCT_COPY_FILES += vendor/nothing/bootanimation/bootanimation1080.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
 
 # Sounds
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/nothing/audio/alarms,$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms)
