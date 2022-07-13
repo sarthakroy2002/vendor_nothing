@@ -18,3 +18,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/nothing/audio/alarm
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/nothing/audio/notifications,$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications)
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/nothing/audio/ringtones,$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones)
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/nothing/audio/ui,$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui)
+
+# Apps
+PRODUCT_PACKAGES += \
+    VoiceRecorder
