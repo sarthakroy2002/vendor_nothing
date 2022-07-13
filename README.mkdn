@@ -1,0 +1,22 @@
+# NothingOS Vendor extras 
+
+This Project is aimed to bring NothingOS look and feels on AOSP. 
+
+## How to use it?
+
+just Inherit the makefile in your device makefile
+
+```bash
+$(call inherit-product, vendor/nothing/config.mk)
+```
+
+And done, it should be built with the ROM.
+
+## Still it doesn't look like NothingOS?
+
+Just feel free to contribute and make it look more like NothingOS
+
+## Credits
+
+* [**Vaisakh Murali**](https://github.com/mvaisakh) for his vendor_extensions example
+* Nothing for everthing xD! :D
