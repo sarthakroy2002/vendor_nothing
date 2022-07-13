@@ -9,5 +9,5 @@
     <overlay
         android:isStatic="true"
         android:priority="10"
-        android:targetPackage="android" />
+        android:targetPackage="com.android.systemui" />
 </manifest>
