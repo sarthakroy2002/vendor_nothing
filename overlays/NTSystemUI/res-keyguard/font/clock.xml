@@ -5,7 +5,5 @@
 -->
 
 <font-family xmlns:android="http://schemas.android.com/apk/res/android">
-    <font>
-        <font android:font="@font/nothingdot57"/>
-    </font>
+    <font android:font="@font/nothing_clock"/>
 </font-family>
