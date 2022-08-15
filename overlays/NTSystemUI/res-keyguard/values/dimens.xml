@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2022 Sarthak Roy
+    SPDX-License-Identifer: Apache-2.0
+-->
+<resources>
+    <!-- Clock without header -->
+    <dimen name="widget_big_font_size">54dp</dimen>
+    
+    <!-- Clock with header -->
+    <dimen name="widget_small_font_size">20dp</dimen>
+    
+</resources>
