@@ -19,4 +19,5 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/nothing/audio/ui,$(
 
 # Apps
 PRODUCT_PACKAGES += \
-    VoiceRecorder
+    VoiceRecorder \
+    NTWeather
