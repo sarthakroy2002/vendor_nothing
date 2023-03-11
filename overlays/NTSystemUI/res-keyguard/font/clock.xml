@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-    Copyright (C) 2022 Sarthak Roy
-    SPDX-License-Identifer: Apache-2.0
--->
-
-<font-family xmlns:android="http://schemas.android.com/apk/res/android">
-    <font android:font="@font/nothing_clock"/>
-</font-family>
